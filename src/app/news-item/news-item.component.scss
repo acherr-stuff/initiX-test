@@ -1,0 +1,18 @@
+:host {
+    flex: 0 0 calc(33.3333% - 40px/3); 
+    max-width: calc(33.3333% - 40px/3); 
+
+    @media (min-width: 768px) and (max-width: 1199px) {
+        flex: 0 0 calc(50% - 10px);
+        max-width: calc(50% - 10px);
+    }
+
+    @media (max-width: 767px) {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+.newslist-item {
+    height: 100%;
+}
